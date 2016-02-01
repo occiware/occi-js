@@ -4,7 +4,7 @@ all: $(bower)
 	$(bower) update
 
 clean:
-	-rm -rf bower_components
+	-rm -rf app/bower_components
 
 distclean: clean
 	-rm -rf node_modules
